@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: rgb(70, 143, 252);
+  padding: 1rem;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+h2 {
+  color: lightskyblue;
+  margin-left: 1rem;
+}
+li {
+  padding: 5px;
+  list-style: circle;
+  margin-left: 3rem;
+}
+.importante {
+  font-weight: bold;
+  text-decoration: underline;
+}
+table {
+  padding: 1rem 2rem;
+}
+thead {
+  color: white;
+  background-color: rgb(70, 143, 252);
+}
+#descanso {
+  font-size: 1rem;
+  text-align: center;
+  background-color: lightsteelblue;
+  text-transform: uppercase;
+}
+tr th:nth-last-child(4) {
+  background-color: lightsteelblue;
+}
+td {
+  font-size: 12px;
+  padding: 1rem;
+  font-weight: bold;
+}
+th {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 10px;
+}
+tbody tr:nth-child(odd) {
+  background-color: lightsteelblue;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightskyblue;
+}
+tr :nth-child(1) {
+  background-color: lightsteelblue;
+}
+thead th:nth-of-type(1) {
+  background-color: rgb(70, 143, 252);
+}
+tbody tr th:nth-child(1) {
+  background-color: lightskyblue;
+}
+
+-->no soy capaz de seleccionar las horas de las 17:00 y de las 18:20
